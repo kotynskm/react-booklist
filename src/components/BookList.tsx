@@ -40,9 +40,11 @@ export const BookList = () => {
       {bookObjectList.map((book) => {
         return (
           <Book
-            title={book.title}
-            author={book.author}
-            image={book.image}
+            // instead of typing out each prop, we can use the spread operator on the book object itself to access those values
+            {...book}
+            // title={book.title}
+            // author={book.author}
+            // image={book.image}
             key={book.id}
           />
         );
