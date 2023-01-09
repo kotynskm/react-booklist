@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(214, 232, 248);
+}
+
+.title {
+  text-align: center;
+  padding: 5px;
+}
+
+.book-list {
+  display: grid;
+  gap: 2rem;
+  justify-content: center;
+  align-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .book-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .book-list {
+    max-width: fit-content;
+    padding: 25px;
+  }
+}
+.book {
+  margin: 25px;
+  text-align: center;
+  width: 90%;
+  background: white;
+  padding: 8px;
+  border-radius: 10px;
+}

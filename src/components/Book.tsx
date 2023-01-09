@@ -6,7 +6,7 @@ type BookProps = {
 
 export const Book = (props: BookProps) => {
   return (
-    <div>
+    <div className="book">
       <h1>{props.title}</h1>
       <h2>{props.author}</h2>
       <img src={props.image}></img>

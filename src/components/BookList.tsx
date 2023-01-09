@@ -2,7 +2,7 @@ import { Book } from "./Book";
 
 export const BookList = () => {
   return (
-    <section>
+    <section className="book-list">
       <Book
         title="Reminders of Him"
         author="Colleen Hoover"
