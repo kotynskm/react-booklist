@@ -13,6 +13,7 @@ body {
 .title {
   text-align: center;
   padding: 5px;
+  margin-top: 10px;
 }
 
 .book-list {
@@ -34,14 +35,19 @@ body {
   }
 }
 .book {
-  margin: 25px;
+  margin: 20px;
   text-align: center;
   width: 90%;
   background: white;
-  padding: 8px;
+  padding: 10px;
   border-radius: 10px;
 }
 
 h3 {
   color: gray;
+}
+
+.book img {
+  max-width: 70%;
+  padding: 20px;
 }
