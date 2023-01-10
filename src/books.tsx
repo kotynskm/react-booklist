@@ -1,3 +1,8 @@
+import img1 from "./images/verity.jpg";
+import img2 from "./images/the-wife-before.jpg";
+import img3 from "./images/twenty-years-later.jpg";
+import img4 from "./images/the-new-couple.jpg";
+
 interface BookObject {
   title: string;
   author: string;
@@ -7,27 +12,27 @@ interface BookObject {
 
 let bookObjectList: BookObject[] = [
   {
-    title: "Reminders of Him",
+    title: "Verity",
     author: "Colleen Hoover",
-    image: "https://m.media-amazon.com/images/I/617uZq23IPL._AC_UL320_.jpg",
+    image: img1,
     id: 1,
   },
   {
     title: "The Wife Before",
     author: "Shanora Williams",
-    image: "https://m.media-amazon.com/images/I/81Ivt18vkzL._AC_UL320_.jpg",
+    image: img2,
     id: 2,
   },
   {
     title: "Twenty Years Later",
     author: "Charlie Donlea",
-    image: "https://m.media-amazon.com/images/I/91HFUglJsjL._AC_UL320_.jpg",
+    image: img3,
     id: 3,
   },
   {
     title: "The New Couple",
     author: "Alison James",
-    image: "https://m.media-amazon.com/images/I/61uKmK-YKwL._AC_UL320_.jpg",
+    image: img4,
     id: 4,
   },
 ];
