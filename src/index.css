@@ -41,7 +41,8 @@ body {
   width: 90%;
   background: white;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 15px;
+  position: relative;
 }
 
 h3 {
@@ -51,4 +52,15 @@ h3 {
 .book img {
   max-width: 70%;
   padding: 20px;
+}
+
+.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background: rgb(70, 155, 245);
+  color: white;
 }
