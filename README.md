@@ -18,7 +18,7 @@ Hosted via Netlify - https://effulgent-basbousa-759317.netlify.app/
 Dashboard page:
 
 <div>
-<img src="/src/assets/dash.png">
+<img src="/src/assets/booklist.png">
 </div>
 
 ## Technologies
