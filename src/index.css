@@ -67,4 +67,20 @@ h3 {
 
 .reading-list {
   text-align: center;
+  padding: 10px;
+}
+
+.reading-title {
+  margin-bottom: 10px;
+}
+
+button {
+  border-radius: 10px;
+  padding: 5px;
+  background-color: white;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: rgb(157, 204, 254);
 }
