@@ -6,7 +6,7 @@
 
 Best Sellers Book List is a React + TypeScript app that displays a list of books. Interface is used to describe book objects, and type is used for component props. It features localStorage for adding, removing, and clearing books from the reading list.
 
-Hosted via Netlify - https://effulgent-basbousa-759317.netlify.app/
+Hosted via Netlify - https://aquamarine-sherbet-1351ba.netlify.app
 
 ---
 
