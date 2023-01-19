@@ -14,7 +14,6 @@ export const ReadingList = () => {
 
   const bookTitles = Object.keys(data);
 
-  console.log(data);
   return (
     <div className="reading-list">
       <h1 className="reading-title">My Reading List</h1>

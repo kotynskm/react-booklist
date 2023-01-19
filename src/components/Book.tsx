@@ -1,4 +1,7 @@
 import { useState } from "react";
+import swal from "sweetalert";
+
+const data = { ...localStorage };
 
 type BookProps = {
   title: string;
@@ -12,8 +15,18 @@ export const Book = (props: BookProps) => {
 
   const handleClick = () => {
     let book = props.title;
-    localStorage.setItem("book" + Math.floor(Math.random() * 10), book);
-    window.location.reload();
+
+    if (localStorage.length === 0) {
+      localStorage.setItem(`${book}`, book);
+      window.location.reload();
+    } else {
+      if (localStorage.getItem(book) === book) {
+        swal("Book already in reading list!");
+      } else {
+        localStorage.setItem(`${book}`, book);
+        window.location.reload();
+      }
+    }
   };
 
   return (
